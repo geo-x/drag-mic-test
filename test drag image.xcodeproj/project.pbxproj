@@ -13,6 +13,7 @@
 		5EA6D2881F674E9F0075D9FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EA6D2861F674E9F0075D9FD /* Main.storyboard */; };
 		5EA6D2931F674EA00075D9FD /* test_drag_imageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA6D2921F674EA00075D9FD /* test_drag_imageTests.swift */; };
 		5EA6D29E1F674EA00075D9FD /* test_drag_imageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA6D29D1F674EA00075D9FD /* test_drag_imageUITests.swift */; };
+		5EA6D2AC1F674F020075D9FD /* mainContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EA6D2AB1F674F020075D9FD /* mainContainerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		5EA6D2991F674EA00075D9FD /* test drag imageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "test drag imageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EA6D29D1F674EA00075D9FD /* test_drag_imageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test_drag_imageUITests.swift; sourceTree = "<group>"; };
 		5EA6D29F1F674EA00075D9FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EA6D2AB1F674F020075D9FD /* mainContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainContainerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				5EA6D2801F674E9F0075D9FD /* AppDelegate.swift */,
 				5EA6D2821F674E9F0075D9FD /* ViewController.swift */,
+				5EA6D2AB1F674F020075D9FD /* mainContainerView.swift */,
 				5EA6D2841F674E9F0075D9FD /* Assets.xcassets */,
 				5EA6D2861F674E9F0075D9FD /* Main.storyboard */,
 				5EA6D2891F674EA00075D9FD /* Info.plist */,
@@ -257,6 +260,7 @@
 			files = (
 				5EA6D2831F674E9F0075D9FD /* ViewController.swift in Sources */,
 				5EA6D2811F674E9F0075D9FD /* AppDelegate.swift in Sources */,
+				5EA6D2AC1F674F020075D9FD /* mainContainerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
