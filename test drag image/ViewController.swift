@@ -8,6 +8,10 @@
 
 import Cocoa
 
+let mic1Layer = CALayer()
+let mic2Layer = CALayer()
+
+
 class ViewController: NSViewController {
 
     override func viewDidLoad() {
