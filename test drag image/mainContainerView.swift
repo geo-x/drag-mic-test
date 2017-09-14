@@ -98,20 +98,33 @@ class mainContainerView: NSView {
     
     func clicked(gesture: NSPanGestureRecognizer){
         //Swift.print("clicked")
+        
+        
+        
         let translation = gesture.translation(in: self.superview)
         
+      //mic1Layer.speed = 20
       
+        //mic1Layer.removeAnimation(forKey:"position")
+        
         
         
         if mic1Layer.frame.contains(gesture.location(in: self)){
-
-//          Swift.print(mic1Layer.hitTest(gesture.location(in: self)) as Any)
-//          Swift.print (gesture.location(in: self)) //
             
-//            Swift.print("inside clicked")
-//            Swift.print("translation = \(translation)")
+            CATransaction.begin()
+            CATransaction.setDisableActions(true)
+            
+            
+            
+           
+//    Swift.print(mic1Layer.hitTest(gesture.location(in: self)) as Any)
+//    Swift.print (gesture.location(in: self)) //
+            
+//   Swift.print("inside clicked")
+//   Swift.print("translation = \(translation)")
             mic1Layer.position = CGPoint(x: mic1Layer.position.x + translation.x, y: mic1Layer.position.y + translation.y)
             gesture.setTranslation(CGPoint.zero, in: self)
+             CATransaction.commit()
         }
         
         
